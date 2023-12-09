@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'junicodeboldcondensed';
+    src: url('junicode-boldcondensed-webfont.eot');
+    src: url('junicode-boldcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('junicode-boldcondensed-webfont.woff2') format('woff2'),
+         url('junicode-boldcondensed-webfont.woff') format('woff'),
+         url('junicode-boldcondensed-webfont.ttf') format('truetype'),
+         url('junicode-boldcondensed-webfont.svg#junicodeboldcondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'junicodebolditaliccondensed';
+    src: url('junicode-bolditaliccondensed-webfont.eot');
+    src: url('junicode-bolditaliccondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('junicode-bolditaliccondensed-webfont.woff2') format('woff2'),
+         url('junicode-bolditaliccondensed-webfont.woff') format('woff'),
+         url('junicode-bolditaliccondensed-webfont.ttf') format('truetype'),
+         url('junicode-bolditaliccondensed-webfont.svg#junicodebolditaliccondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  margin-top: 1%; }
+
+p{margin-bottom: 0;
+  display: inline }
+p2{margin-left: 2em;
+display: inline;}
+.container{
+  font-family: "junicodeboldcondensed";
+  font-weight: ;
+
+  display: flex;
+   flex-direction: row;
+    flex-wrap:wrap;
+
+}
+.list-container{
+  font-family: "junicodeboldcondensed";
+  font-weight: ;
+
+  display: flex;
+   flex-direction: column;
+    flex-wrap:wrap;
+
+}
+
+
+a {color: black;
+  margin-bottom: 0;
+}
+a:hover {font-style:italic;}
+a:visited {
+  color: hotpink;
+}
+
+
+.footer{
+  font-family: "junicodeboldcondensed";
+  font-weight: ;
+  line-height: 95%;
+  display: flex;
+  position: fixed;
+  left: 1%;
+  bottom: 1%;
+  width: 100%;
+  text-align: center;
+   flex-wrap:wrap;
+    justify-content: space-between
+}
+
+.item {
+  
+  margin-right:2%;
+    margin-left:0%
+  }
+  
+
+  .list-item {
+  
+    margin-right:2%;
+      margin-left:0%
+    }
+    
+    #4 {
+
+
+    }
